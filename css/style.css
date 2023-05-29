@@ -359,14 +359,16 @@ header {
 .blog-detali-about-grid {
   display: flex;
   gap: 31px;
-  margin: 121px 0 88px 3px;
+  margin: 45px 0 88px 3px;
+
 }
 .blog-detali-about-grid-l {
   width: 400px;
   position: sticky;
-  top: 195px;
+  top: 50px;
   z-index: 2;
   height: 200px;
+  padding-top: 76px;
 }
 .blog-detali-about-grid-l-h3 {
   font-weight: 400;
@@ -386,15 +388,19 @@ header {
   margin-top: 11px;
   cursor: pointer;
 }
+
+.blog-detali-about-grid-l-a:active {
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: -0.02em;
+color: var(--color-neutral-1);
+}
 .act {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  letter-spacing: -0.02em;
-  color: var(--color-neutral-1);
   margin-top: 32px;
 }
 .blog-detali-about-grid-r {
+  padding-top: 76px;
   width: 847px;
 }
 .blog-detali-about-grid-r-h3 {
