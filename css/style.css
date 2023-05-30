@@ -246,6 +246,9 @@ header {
   color: var(--color-neutral-4);
 }
 @media screen and (max-width: 1100px) {
+  .header__flex {
+    padding-bottom: 15px;
+  }
   .header__flex-nav-a {
     display: none;
   }
@@ -358,10 +361,10 @@ header {
   color: var(--color-neutral-2);
   padding-top: 20px;
 }
-@media screen and (max-width: 1390px) {
-  .blog_about {
+@media screen and (max-width: 1200px) {
+   .blog_about {
     display: block;
-  }
+  } 
 }
 /* blog-detali-about-grid */
 .blog-detali-about-grid {
